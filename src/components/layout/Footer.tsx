@@ -11,21 +11,21 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const navigation = {
   services: [
-    { key: "Software Development", href: "/services/development" },
-    { key: "Product Design", href: "/services/design" },
-    { key: "IT Operations", href: "/services/operations" },
-    { key: "Tech Consulting", href: "/services/consulting" },
+    { key: "Software Development", href: "/services/software_development" },
+    { key: "Product Design", href: "/services/product_design" },
+    { key: "IT Operations", href: "/services/it_operations" },
+    { key: "Technology Enablement", href: "/services/tech_consulting" },
   ],
   industries: [
-    { key: "Enterprise", href: "#" },
-    { key: "Healthcare", href: "#" },
-    { key: "Finance", href: "#" },
-    { key: "Education", href: "#" },
-    { key: "Public Sector", href: "#" },
+    { key: "Enterprise", href: "/industries/enterprise" },
+    { key: "Healthcare", href: "/industries/healthcare" },
+    { key: "Finance", href: "/industries/finance" },
+    { key: "Education", href: "/industries/education" },
+    { key: "Public Sector", href: "/industries/public_sector" },
   ],
   ourProducts: [
     { key: "Graminate AgroERP", href: "/products/graminate" },
-    { key: "Downloads", href: "/company/downloads" },
+    // { key: "Downloads", href: "/company/downloads" },
   ],
 };
 
@@ -119,9 +119,7 @@ const Footer = () => {
             </div>
 
             <div className="col-span-2 xl:col-span-1">
-              <h3 className="text-sm font-semibold text-white">
-                Our Products
-              </h3>
+              <h3 className="text-sm font-semibold text-white">Our Products</h3>
               <ul role="list" className="mt-2 space-y-2">
                 {navigation.ourProducts.map((item) => (
                   <li key={item.key}>
