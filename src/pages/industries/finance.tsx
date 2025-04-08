@@ -16,7 +16,7 @@ export default function Finance() {
         <CoverSection
           backgroundImage={coverImage}
           title="Finance Technology"
-          subtitle="At Graminate, our team of experienced software developers turn your ideas and requirements into high-quality, secured software applications explicitly tailored to digitalize your business and contribute to your long-term profits"
+          subtitle="We design and develop secure, user-friendly financial software from investment and trading platforms to insurance solutions and personal finance tools. Our softwares are built to ensure compliance, drive user trust, and deliver seamless digital experiences across financial domains"
         />
 
         <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
@@ -27,15 +27,15 @@ export default function Finance() {
                 alt="Investment & Trading Platforms"
                 title="Investment & Trading Platforms"
                 paragraphs={[
-                  "Our team of designers and developers develop your web applications using the most modern frameworks with a mobile-first approach. Our web applications are responsive by default, SEO-optimized, and load at lightning speed.",
-                  "We develop web applications across domains like HealthCare, FinTech, EdTech, and lots more.",
+                  "We develop fast, secure investment and trading platforms for stocks, crypto, and more, designed for both beginners and pros. Our solutions offer real-time data, smooth UX, and full compliance.",
+                  "From portfolio tracking to advanced analytics and API integrations, we ensure your platform is reliable, scalable, and ready for today’s financial markets.",
                 ]}
                 listItems={[
-                  "Responsive mobile-first, tested and secured web applications and websites.",
-                  "Dynamic web apps with modern design, customized for your business needs.",
-                  "Personalized or event-based websites for you or your business.",
-                  "Integrated custom admin dashboards for more control.",
-                  "24 x 7 Support for all the systems developed by us.",
+                  "Real-time market data and trading execution",
+                  "Secure user authentication and KYC integration",
+                  "Portfolio tracking and performance analytics",
+                  "Custom dashboards with interactive charts and reports",
+                  "Integration with brokers, exchanges, and financial APIs",
                 ]}
               />
             </div>
@@ -46,15 +46,14 @@ export default function Finance() {
                 alt="Insurance Platforms"
                 title="Insurance Platforms"
                 paragraphs={[
-                  "Own a business? Our team builds robust state-of-the-art enterprise applications that integrate seamlessly with your business proceedings and existing systems. We focus on scalability, security, and efficiency, ensuring your business stays ahead.",
-                  "Our enterprise software solutions are tailored to your business needs, easy to use by any of your employees, and highly customizable based on your business.",
+                  "We build secure, user-friendly insurance platforms that simplify policy management, claims processing, and customer onboarding. Designed for both providers and users, our solutions improve efficiency and trust.",
+                  "With automation, real-time data access, and seamless integrations, we help insurers deliver faster services and better customer experiences.",
                 ]}
                 listItems={[
-                  "Integrated and easy-to-use CRM and ERP features",
-                  "Secure user management and role-based access control",
-                  "Protected API endpoints that guarantees safety of your data",
-                  "Custom reporting and analytics modules",
-                  "24 x 7 System Support",
+                  "Policy creation, management, and renewal automation",
+                  "Streamlined claims processing with status tracking",
+                  "Secure user onboarding and document verification",
+                  "Integration with payment gateways and third-party APIs",
                 ]}
                 reverse={true}
               />
@@ -66,15 +65,14 @@ export default function Finance() {
                 alt="Personal Finance & Budgeting"
                 title="Personal Finance & Budgeting"
                 paragraphs={[
-                  "If you or your business require mobile applications compatible with iOS and Android, look no further. Our developers are here to analyze your requirements and develop intuitive and high-performance cross-platform mobile apps that shall play an integral part in your business revenue.",
-                  "Irrespective of your domain, our experts ensure that your customers always have the best possible user experiences and that all your requirements are fulfilled without setbacks.",
+                  "We create smart personal finance and budgeting apps that help users manage income, track expenses, and build financial habits. Our solutions are intuitive, secure, and designed to promote financial wellness for individuals and families.",
+                  "With real-time syncing, goal tracking, and insightful analytics, we make it easier for users to stay on top of their finances and make informed decisions.",
                 ]}
                 listItems={[
-                  "Cross-platform apps with native performance",
-                  "UI/UX that drives user engagement",
-                  "Integrated push notification service",
-                  "We deploy your application in App Store & Play Store",
-                  "24 x 7 for your app after production",
+                  "Expense tracking and budget planning",
+                  "Real-time bank and account syncing",
+                  "Goal-based savings and spending insights",
+                  "Alerts, reminders, and monthly summaries",
                 ]}
                 titleClass="text-3xl font-bold text-gray-800 mb-4"
                 paragraphClass="text-lg"

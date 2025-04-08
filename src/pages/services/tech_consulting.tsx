@@ -15,8 +15,8 @@ export default function TechConsulting() {
       <DefaultLayout>
         <CoverSection
           backgroundImage={coverImage}
-          title="Technology Consulting"
-          subtitle="Lorem Ipsum..."
+          title="Technology Enablement"
+          subtitle="We help businesses evolve and innovate through our range of enablement services. We ensure your technology landscape supports long-term growth, agility, and performance."
         />
 
         {/* Content Section */}
@@ -29,14 +29,14 @@ export default function TechConsulting() {
                 alt="Project Management"
                 title="Project Management"
                 paragraphs={[
-                  "Our team of designers and developers develop your web applications using the most modern frameworks with a mobile-first approach. Our web applications are responsive by default, SEO-optimized, and load at lightning speed.",
+                  "We provide end-to-end project management to ensure your technology initiatives are delivered on time, within scope, and aligned with business goals. Our approach emphasizes clarity, collaboration, and measurable outcomes.",
                 ]}
                 listItems={[
-                  "Responsive mobile-first, tested and secured web applications and websites.",
-                  "Dynamic web apps with modern design, customized for your business needs.",
-                  "Personalized or event-based websites for you or your business.",
-                  "Integrated custom admin dashboards for more control.",
-                  "24 x 7 Support for all the systems developed by us.",
+                  "Agile and traditional project management frameworks",
+                  "Clear planning, milestones, and progress tracking",
+                  "Risk management and issue resolution strategies",
+                  "Transparent communication and stakeholder alignment",
+                  "On-time delivery with continuous feedback loops",
                 ]}
                 reverse={true}
               />
@@ -48,14 +48,14 @@ export default function TechConsulting() {
                 alt="Technical Debt Remediation"
                 title="Technical Debt Remediation"
                 paragraphs={[
-                  "Our team of designers and developers develop your web applications using the most modern frameworks with a mobile-first approach. Our web applications are responsive by default, SEO-optimized, and load at lightning speed.",
+                  "We help identify and resolve technical debt that slows down development and affects system stability. By addressing outdated code, architecture bottlenecks, and inefficient processes, we enable faster and more sustainable growth.",
                 ]}
                 listItems={[
-                  "Responsive mobile-first, tested and secured web applications and websites.",
-                  "Dynamic web apps with modern design, customized for your business needs.",
-                  "Personalized or event-based websites for you or your business.",
-                  "Integrated custom admin dashboards for more control.",
-                  "24 x 7 Support for all the systems developed by us.",
+                  "Codebase analysis and refactoring strategy",
+                  "Removal of legacy dependencies and unused components",
+                  "Improved maintainability and code performance",
+                  "Best practices implementation for long-term quality",
+                  "Reduced operational risk and faster feature delivery",
                 ]}
               />
             </div>
@@ -63,18 +63,18 @@ export default function TechConsulting() {
             {/* Application Modernization Section */}
             <div id="application_modernization">
               <ContentSection
-                imageSrc="/services/tc_pm.png"
+                imageSrc="/services/tc_modernization.png"
                 alt="Application Modernization"
                 title="Application Modernization"
                 paragraphs={[
                   "Our team of designers and developers develop your web applications using the most modern frameworks with a mobile-first approach. Our web applications are responsive by default, SEO-optimized, and load at lightning speed.",
                 ]}
                 listItems={[
-                  "Responsive mobile-first, tested and secured web applications and websites.",
-                  "Dynamic web apps with modern design, customized for your business needs.",
-                  "Personalized or event-based websites for you or your business.",
-                  "Integrated custom admin dashboards for more control.",
-                  "24 x 7 Support for all the systems developed by us.",
+                  "Migration from legacy systems to modern architectures",
+                  "Cloud-native and container-based modernization",
+                  "Enhanced UI/UX and responsive design upgrades",
+                  "Integration with modern APIs and third-party services",
+                  "Improved performance, security, and maintainability",
                 ]}
                 reverse={true}
               />

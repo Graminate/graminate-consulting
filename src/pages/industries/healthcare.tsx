@@ -16,7 +16,7 @@ export default function HealthCare() {
         <CoverSection
           backgroundImage={coverImage}
           title="Health Care"
-          subtitle="At Graminate, our team of experienced software developers turn your ideas and requirements into high-quality, secured software applications explicitly tailored to digitalize your business and contribute to your long-term profits"
+          subtitle="At Graminate, we develop secure, high-performance software for the healthcare industry including fitness and nutrition apps, clinical and hospital management systems, pharma platforms, and custom tools for doctors. Tailored for better care, efficiency, and compliance."
         />
 
         <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
@@ -27,15 +27,15 @@ export default function HealthCare() {
                 alt="Fitness & Nutrition"
                 title="Fitness & Nutrition"
                 paragraphs={[
-                  "Own a business? Our team builds robust state-of-the-art enterprise applications that integrate seamlessly with your business proceedings and existing systems. We focus on scalability, security, and efficiency, ensuring your business stays ahead.",
-                  "Our enterprise software solutions are tailored to your business needs, easy to use by any of your employees, and highly customizable based on your business.",
+                  "We build engaging fitness and nutrition apps with workout plans, meal tracking, and habit-building features, all designed for long-term user engagement.",
+                  "Our scalable apps support real-time tracking and wearable integrations, tailored exactly to your requirements.",
                 ]}
                 listItems={[
-                  "Integrated and easy-to-use CRM and ERP features",
-                  "Secure user management and role-based access control",
-                  "Protected API endpoints that guarantees safety of your data",
-                  "Custom reporting and analytics modules",
-                  "24 x 7 System Support",
+                  "Custom workout and meal planning modules",
+                  "Calorie and macro tracking with food database integration",
+                  "Wearable device and health data synchronization",
+                  "User progress tracking and goal setting",
+                  "Push notifications for reminders and motivation",
                 ]}
                 reverse={true}
               />
@@ -47,15 +47,15 @@ export default function HealthCare() {
                 alt="Clinical, Pharma & Hospital Management Platforms"
                 title="Clinical, Pharma & Hospital Management Platforms"
                 paragraphs={[
-                  "If you or your business require mobile applications compatible with iOS and Android, look no further. Our developers are here to analyze your requirements and develop intuitive and high-performance cross-platform mobile apps that shall play an integral part in your business revenue.",
-                  "Irrespective of your domain, our experts ensure that your customers always have the best possible user experiences and that all your requirements are fulfilled without setbacks.",
+                  "We build secure, high-performance platforms for clinics, hospitals, and pharma from patient records to inventory and compliance.",
+                  "Our solutions streamline operations, improve care, and integrate with existing systems.",
                 ]}
                 listItems={[
-                  "Cross-platform apps with native performance",
-                  "UI/UX that drives user engagement",
-                  "Integrated push notification service",
-                  "We deploy your application in App Store & Play Store",
-                  "24 x 7 for your app after production",
+                  "Electronic Health Records (EHR) and patient management systems",
+                  "Appointment scheduling and doctor-patient communication tools",
+                  "Inventory and supply chain management for pharma operations",
+                  "Role-based access and data security compliant with healthcare standards",
+                  "Custom reporting, billing, and analytics for better decision-making",
                 ]}
                 titleClass="text-3xl font-bold text-gray-800 mb-4"
                 paragraphClass="text-lg"
@@ -69,14 +69,14 @@ export default function HealthCare() {
                 alt="Softwares for Doctors"
                 title="Softwares for Doctors"
                 paragraphs={[
-                  "Our team of developers are experts in developing scalable, secured and performance-optimized cloud-based collaborative tools and cloud applications for your business. Inculcate your ideas and vision and turn them into real features that are critical for your business growth and revenue.",
-                  "From cloud-based collaborative tools, communication tools to data streaming platforms, our team is dedicated to ensuring your ideas succeed.",
+                  "We create personalized, easy-to-use software for doctors, dentists, therapists and more, to manage appointments, patient records, prescriptions, and communication all in one place.",
+                  "Our tools help doctors save time, stay organized, and focus more on patient care",
                 ]}
                 listItems={[
-                  "Cloud-native architecture with AWS and GCP",
-                  "Scalable microservices and containerization",
-                  "CI/CD pipelines for faster delivery",
-                  "Built-in monitoring and logging solutions",
+                  "Digital patient records with quick access and updates",
+                  "Appointment scheduling and calendar integration",
+                  "E-prescription generation and management",
+                  "Secure messaging and patient communication tools",
                 ]}
                 reverse={true}
                 titleClass="text-3xl font-bold text-gray-800 mb-4"

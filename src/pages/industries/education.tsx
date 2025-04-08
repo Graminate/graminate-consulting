@@ -16,7 +16,7 @@ export default function Education() {
         <CoverSection
           backgroundImage={coverImage}
           title="Education"
-          subtitle="At Graminate, our team of experienced software developers turn your ideas and requirements into high-quality, secured software applications explicitly tailored to digitalize your business and contribute to your long-term profits"
+          subtitle="We design and develop innovative EdTech solutions that empower institutions, educators, and learners. From institutional management systems to interactive learning platforms and exam preparation tools. Our custom software supports better learning outcomes, operational efficiency, and digital transformation in education."
         />
 
         <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
@@ -27,8 +27,8 @@ export default function Education() {
                 alt="Institutional Management System"
                 title="Institutional Management System"
                 paragraphs={[
-                  "Our team of designers and developers develop your web applications using the most modern frameworks with a mobile-first approach. Our web applications are responsive by default, SEO-optimized, and load at lightning speed.",
-                  "We develop web applications across domains like HealthCare, FinTech, EdTech, and lots more.",
+                  "We build comprehensive Institutional Management Systems that streamline academic and administrative operations for schools, colleges, and training centers. Our solutions are designed to reduce manual effort and improve transparency across departments.",
+                  "From student enrollment to attendance, fee tracking, and staff coordination — everything is centralized in one secure, easy-to-use platform tailored to your institution’s needs.",
                 ]}
                 listItems={[
                   "Responsive mobile-first, tested and secured web applications and websites.",
@@ -46,15 +46,15 @@ export default function Education() {
                 alt="Learning & Teaching Platforms"
                 title="Learning & Teaching Platforms"
                 paragraphs={[
-                  "Own a business? Our team builds robust state-of-the-art enterprise applications that integrate seamlessly with your business proceedings and existing systems. We focus on scalability, security, and efficiency, ensuring your business stays ahead.",
-                  "Our enterprise software solutions are tailored to your business needs, easy to use by any of your employees, and highly customizable based on your business.",
+                  "We develop interactive learning and teaching platforms that support online classes, content delivery, and student engagement. Built for schools, universities, and edtech providers, our platforms make education accessible, personalized, and scalable.",
+                  "From live classes to progress tracking and teacher dashboards, we enable seamless digital learning experiences for both educators and learners.",
                 ]}
                 listItems={[
-                  "Integrated and easy-to-use CRM and ERP features",
-                  "Secure user management and role-based access control",
-                  "Protected API endpoints that guarantees safety of your data",
-                  "Custom reporting and analytics modules",
-                  "24 x 7 System Support",
+                  "Virtual classrooms with live and recorded sessions",
+                  "Course management with multimedia content support",
+                  "Student progress tracking and analytics",
+                  "Teacher dashboards and grading tools",
+                  "Interactive quizzes and feedback modules",
                 ]}
                 reverse={true}
               />
@@ -66,15 +66,15 @@ export default function Education() {
                 alt="Exam Preparation Platforms"
                 title="Exam Preparation Platforms"
                 paragraphs={[
-                  "If you or your business require mobile applications compatible with iOS and Android, look no further. Our developers are here to analyze your requirements and develop intuitive and high-performance cross-platform mobile apps that shall play an integral part in your business revenue.",
-                  "Irrespective of your domain, our experts ensure that your customers always have the best possible user experiences and that all your requirements are fulfilled without setbacks.",
+                  "Our exam preparation platforms help learners study smarter with personalized learning paths, mock tests, and performance analytics. Ideal for competitive exams, school boards, and certifications — we bring structure and efficiency to self-paced learning.",
+                  "With adaptive testing and progress reports, we ensure students stay on track and improve over time.",
                 ]}
                 listItems={[
-                  "Cross-platform apps with native performance",
-                  "UI/UX that drives user engagement",
-                  "Integrated push notification service",
-                  "We deploy your application in App Store & Play Store",
-                  "24 x 7 for your app after production",
+                  "Topic-wise mock tests and quizzes",
+                  "Real-time performance tracking and analytics",
+                  "Personalized learning paths based on progress",
+                  "Gamified learning and rewards system",
+                  "Multi-device access for study anytime, anywhere",
                 ]}
                 titleClass="text-3xl font-bold text-gray-800 mb-4"
                 paragraphClass="text-lg"
