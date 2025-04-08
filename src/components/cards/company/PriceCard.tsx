@@ -58,7 +58,7 @@ const PriceCard = ({
         href={href}
         className={classNames(
           isSelected
-            ? "bg-green-600 text-white shadow-sm hover:bg-green-800"
+            ? "bg-green-200 text-white shadow-sm hover:bg-green-800"
             : "bg-gray-400 text-black hover:bg-gray-300 focus-visible:outline-white",
           "mt-6 block rounded-md px-3 py-2 text-center text-sm leading-6 font-semibold focus-visible:outline focus-visible:outline-offset-2"
         )}
