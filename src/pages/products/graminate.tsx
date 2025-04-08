@@ -2,7 +2,6 @@ import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
 import { useEffect, useRef, useState, useCallback } from "react";
 import Head from "next/head";
-import { useRouter } from "next/router";
 import Image from "next/image";
 import PriceCard from "@/components/cards/company/PriceCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
