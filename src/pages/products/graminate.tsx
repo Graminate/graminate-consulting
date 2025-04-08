@@ -119,7 +119,7 @@ const content = {
     "Graminate ERP is an all-in-one software solution designed specifically for agriculture-related businesses to streamline operations, manage resources, track finances, and ultimately boost productivity and profitability.",
   faq_q2: "Who is Graminate ERP for?",
   faq_a2:
-    "It's ideal for farms, poultry businesses, agricultural startups, cooperatives, distributors, and any business involved in the agricultural supply chain seeking digitalization and better management tools.",
+    "It is ideal for farms, poultry businesses, agricultural startups, cooperatives, distributors, and any business involved in the agricultural supply chain seeking digitalization and better management tools.",
   faq_q3: "How does the pricing work?",
   faq_a3:
     "We offer flexible monthly and annual subscription plans tailored to different business sizes and needs. Choose the pack that best fits your requirements. Annual plans offer a significant discount.",
@@ -131,7 +131,7 @@ const content = {
   "Platform Title":
     "A platform to monitor and drive agricultural business profits",
   "Platform Desc":
-    "Our software features simple interfaces designed to help you monitor operations, automate communication, track expenses, and manage critical tasks essential for your business's success.",
+    "Our software features simple interfaces designed to help you monitor operations, automate communication, track expenses, and manage critical tasks essential for the success of your business.",
   "Testimonial Quote":
     "Graminate ERP transformed how we manage our farm. Tracking yields and expenses is now effortless, giving us clear insights into our profitability. The weather and price tracking features are invaluable.",
   "Testimonial Author": "Anya Sharma",

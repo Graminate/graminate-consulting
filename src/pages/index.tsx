@@ -299,9 +299,9 @@ export default function Home() {
                     digital transformation and ensure seamless product delivery.
                   </p>
                   <p className="mt-6 text-lg text-gray-600 leading-relaxed">
-                    Whether you're building from the ground up or modernizing
-                    existing systems, Graminate enables your tech evolution with
-                    future-ready tools and strategic guidance.
+                    Whether you&apos;re building from the ground up or
+                    modernizing existing systems, Graminate enables your tech
+                    evolution with future-ready tools and strategic guidance.
                   </p>
                   <Button
                     style="home"

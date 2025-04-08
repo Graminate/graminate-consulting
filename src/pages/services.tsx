@@ -92,7 +92,7 @@ export default function Services() {
         <title>Graminate | Our Services</title>
         <meta
           name="description"
-          content="Explore Graminate's IT solutions including Software Development, Product Design, IT Operations, and Technology Enablement."
+          content="Explore our IT solutions including Software Development, Product Design, IT Operations, and Technology Enablement."
         />
       </Head>
 
@@ -204,8 +204,8 @@ export default function Services() {
                 Ready to Accelerate Your Growth?
               </h2>
               <p className="mt-4 text-lg text-gray-600 max-w-xl mx-auto">
-                Let's build your competitive advantage together. Schedule a free
-                consultation to discuss your project.
+                Let&apos;s build your competitive advantage together. Schedule a
+                free consultation to discuss your project.
               </p>
               <div className="mt-8">
                 <Link

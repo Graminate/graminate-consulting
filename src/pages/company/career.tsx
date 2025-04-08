@@ -11,30 +11,29 @@ import { Jobs } from "@/lib/types";
 import DefaultLayout from "@/layout/DefaultLayout";
 
 const jobs: Jobs[] = [
-  {
-    position: "Frontend Developer",
-    type: "Full-time",
-    mode: "Remote",
-    description:
-      "Join our frontend team to build responsive user interfaces using React, TailwindCSS, and TypeScript.",
-    tasks: [
-      "Develop new UI features and components",
-      "Collaborate with designers and backend developers",
-      "Write clean, testable code",
-    ],
-    requirements: [
-      "2+ years experience with React and TypeScript",
-      "Familiarity with REST APIs",
-      "Good understanding of responsive design",
-    ],
-    benefits: [
-      "Fully remote team",
-      "Flexible working hours",
-      "Annual learning budget",
-    ],
-    jobpost: "https://www.linkedin.com/jobs/view/frontend-developer-123456",
-  },
-  // Add more job postings here if available
+  // {
+  //   position: "Frontend Developer",
+  //   type: "Full-time",
+  //   mode: "Remote",
+  //   description:
+  //     "Join our frontend team to build responsive user interfaces using React, TailwindCSS, and TypeScript.",
+  //   tasks: [
+  //     "Develop new UI features and components",
+  //     "Collaborate with designers and backend developers",
+  //     "Write clean, testable code",
+  //   ],
+  //   requirements: [
+  //     "2+ years experience with React and TypeScript",
+  //     "Familiarity with REST APIs",
+  //     "Good understanding of responsive design",
+  //   ],
+  //   benefits: [
+  //     "Fully remote team",
+  //     "Flexible working hours",
+  //     "Annual learning budget",
+  //   ],
+  //   jobpost: "https://www.linkedin.com/jobs/view/frontend-developer-123456",
+  // },
 ];
 
 // Animation Variants
@@ -88,8 +87,8 @@ const Careers = () => {
               transition={{ delay: 0.2, ...fadeInUp.transition }}
               className="mt-6 text-lg leading-8 text-gray-600"
             >
-              We're looking for passionate individuals to join our innovative
-              team. Discover your next opportunity at Graminate.
+              We are constantly looking for passionate individuals to join our
+              innovative team. Discover your next opportunity at Graminate.
             </motion.p>
           </motion.div>
           <div
@@ -124,7 +123,8 @@ const Careers = () => {
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 We believe in fostering a supportive environment where talent
-                thrives. Here's what makes Graminate a special place to work.
+                thrives. Here&apos;s what makes Graminate a special place to
+                work.
               </p>
             </motion.div>
             <motion.div
@@ -160,7 +160,7 @@ const Careers = () => {
                   Work Perks & Benefits
                 </h2>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                  We invest in our team's well-being and professional
+                  We invest in our team&apos;s well-being and professional
                   development with a comprehensive benefits package.
                 </p>
                 <motion.ul

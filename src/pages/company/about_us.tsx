@@ -11,7 +11,7 @@ const teamMembers = [
     name: "Borneel B. Phukan",
     role: "CEO / CTO",
     description:
-      "Leading Graminate's strategic and technical innovation, ensuring the delivery of impactful, client-focused software solutions.",
+      "Leading strategic and technical innovation of Graminate, ensuring the delivery of impactful, client-focused software solutions.",
   },
   // {
   //   avatar: "/images/people/lisa.png",
@@ -72,7 +72,7 @@ export default function AboutUs() {
                 variants={fadeInUp}
                 className="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto"
               >
-                We're a passionate team building the future of software.
+                We are a passionate team building the future of software.
               </motion.h1>
               <motion.div
                 variants={fadeInUp}
@@ -170,8 +170,8 @@ export default function AboutUs() {
                   We strive to understand the unique challenges and
                   opportunities of each client, crafting bespoke software,
                   optimizing IT infrastructure, and ensuring robust quality
-                  assurance. Our goal is to be the catalyst for our clients'
-                  success in the digital age.
+                  assurance. Our goal is to be the catalyst for the success of
+                  our clients in the digital age.
                 </p>
               </motion.div>
               <motion.div
