@@ -16,7 +16,7 @@ export default function PublicSector() {
         <CoverSection
           backgroundImage={coverImage}
           title="IT for Public Sector"
-          subtitle="Example statement"
+          subtitle="We deliver secure, scalable digital solutions for the public sector — including e-Governance apps, mobility platforms, and infrastructure management tools — to enhance service delivery and operational efficiency."
         />
 
         <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
@@ -28,8 +28,8 @@ export default function PublicSector() {
                 alt="e-Governance"
                 title="E-Governance"
                 paragraphs={[
-                  "Own a business? Our team builds robust state-of-the-art enterprise applications that integrate seamlessly with your business proceedings and existing systems. We focus on scalability, security, and efficiency, ensuring your business stays ahead.",
-                  "Our enterprise software solutions are tailored to your business needs, easy to use by any of your employees, and highly customizable based on your business.",
+                  "We develop secure and citizen-centric e-Governance applications that digitize public services and improve accessibility. Our solutions help governments streamline operations and deliver faster, transparent services.",
+                  "Our platforms are built with scalability and compliance in mind, making them suitable for both local and national administrations.",
                 ]}
                 listItems={[
                   "Integrated and easy-to-use CRM and ERP features",
@@ -72,14 +72,15 @@ export default function PublicSector() {
                 alt="Urban Development"
                 title="Infrastructure & Urban Development"
                 paragraphs={[
-                  "Our team of developers are experts in developing scalable, secured and performance-optimized cloud-based collaborative tools and cloud applications for your business. Inculcate your ideas and vision and turn them into real features that are critical for your business growth and revenue.",
-                  "From cloud-based collaborative tools, communication tools to data streaming platforms, our team is dedicated to ensuring your ideas succeed.",
+                  "We create digital tools to manage urban infrastructure projects, monitor assets, and support data-driven city planning. Our platforms help public agencies track progress, ensure transparency, and improve infrastructure maintenance.",
+                  "Built for collaboration across departments, our solutions are tailored to drive smarter, more sustainable urban growth.",
                 ]}
                 listItems={[
-                  "Cloud-native architecture with AWS and GCP",
-                  "Scalable microservices and containerization",
-                  "CI/CD pipelines for faster delivery",
-                  "Built-in monitoring and logging solutions",
+                  "Project tracking and milestone management",
+                  "GIS and map-based infrastructure planning",
+                  "Budget and resource allocation tools",
+                  "Maintenance scheduling and asset tracking",
+                  "Citizen feedback and reporting integration",
                 ]}
                 reverse={true}
                 titleClass="text-3xl font-bold text-gray-800 mb-4"

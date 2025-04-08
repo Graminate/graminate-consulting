@@ -15,38 +15,34 @@ export default function Industries() {
       id: 1,
       title: "Enterprise",
       description:
-        "Secure, scalable cloud infrastructure tailored to your business needs.",
+        "We build scalable, secure, and high-performance software solutions tailored for businesses ranging from ERP and CRM systems to web, mobile, SaaS and cloud-based applications.",
       link: "/industries/enterprise",
     },
 
     {
       id: 2,
       title: "Healthcare",
-      description:
-        "Streamline operations and boost efficiency with our proven process enhancement methodologies.",
+      description: "Lorem ipsum",
       link: "/industries/healthcare",
     },
     {
       id: 3,
       title: "Finance",
-      description:
-        "Harness the power of intelligent automation to reduce costs and accelerate productivity.",
+      description: "Lorem ipsum",
       link: "/industries/finance",
     },
 
     {
       id: 4,
       title: "Education",
-      description:
-        "Secure, scalable cloud infrastructure tailored to your business needs.",
+      description: "Lorem ipsum",
       link: "/industries/education",
     },
 
     {
       id: 5,
       title: "Public Sector",
-      description:
-        "Secure, scalable cloud infrastructure tailored to your business needs.",
+      description: "Lorem ipsum",
       link: "/industries/public_sector",
     },
   ];
@@ -70,7 +66,10 @@ export default function Industries() {
                   <p className="mx-auto max-w-3xl my-4 text-xl font-medium text-dark">
                     Our expertise in digital solutions spans across industries,
                     equipping us to turn complex business requirements into
-                    streamlined, scalable, and future-ready software solutions
+                    streamlined, scalable, and future-ready software solutions.
+                    From developing applications to assist your business to
+                    maintain and upgrade, our team is committed to make it
+                    happen.
                   </p>
                 </h1>
               </div>

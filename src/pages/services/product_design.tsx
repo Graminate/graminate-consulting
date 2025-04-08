@@ -30,13 +30,14 @@ export default function ProductDesign() {
                 alt="UI/UX Design"
                 title="UI/UX Design"
                 paragraphs={[
-                  "Our web applications are crafted with modern frameworks and a mobile-first approach. We create responsive, secure, and dynamic solutions that drive engagement and deliver real business value.",
+                  "We craft intuitive and engaging digital experiences that align with your brand and user needs. Our UI/UX design approach focuses on usability, accessibility, and aesthetics to maximize user satisfaction and business impact.",
                 ]}
                 listItems={[
-                  "Responsive design optimized for all devices",
-                  "Progressive Web App (PWA) capabilities",
-                  "SEO-friendly architecture using Next.js",
-                  "Custom admin dashboards and portals",
+                  "User-centered design tailored to your target audience",
+                  "Intuitive navigation and seamless user journeys",
+                  "High-fidelity wireframes and interactive prototypes",
+                  "Mobile-first and responsive interface design",
+                  "Improved engagement and conversion through optimized UX",
                 ]}
               />
             </div>
@@ -48,13 +49,14 @@ export default function ProductDesign() {
                 alt="Web Design"
                 title="Web Design"
                 paragraphs={[
-                  "We build robust enterprise applications that integrate seamlessly with your existing systems. Our solutions focus on scalability, data security, and operational efficiency, ensuring your business stays ahead.",
+                  "We design user-friendly and visually consistent interfaces across websites, web applications, and desktop software. Our focus is on delivering functional, aesthetic, and accessible designs that enhance user interaction and align with your business goals.",
                 ]}
                 listItems={[
-                  "Integrated ERP & CRM systems",
-                  "Secure user management and role-based access control",
-                  "API-driven architecture for easy integration",
-                  "Custom reporting and analytics modules",
+                  "UI design for websites, web apps, and desktop software",
+                  "Consistent design systems for cohesive user experiences",
+                  "Responsive and adaptive layouts across devices and platforms",
+                  "Wireframes and prototypes for fast validation and feedback",
+                  "Seamless collaboration with developers for design implementation",
                 ]}
                 reverse={true}
               />
@@ -77,16 +79,28 @@ export default function ProductDesign() {
                     Computer-Aided Design (CAD)
                   </h2>
                   <p className="text-lg text-gray-600">
-                    We develop intuitive and high-performance mobile apps that
-                    offer seamless user experiences on both iOS and Android
-                    platforms. Whether native or cross-platform, our mobile
-                    solutions are designed to captivate and engage.
+                    We offer precise and detailed CAD solutions for businesses
+                    in engineering, manufacturing, and architecture. Our CAD
+                    services help turn ideas into technical drawings, 3D models,
+                    and production-ready designs.
                   </p>
                   <ul className="list-disc list-inside mt-4 text-gray-600 space-y-2">
-                    <li>Cross-platform apps with Flutter & React Native</li>
-                    <li>Native performance with beautiful UI/UX</li>
-                    <li>Push notifications and offline support</li>
-                    <li>App Store & Play Store deployment support</li>
+                    <li>
+                      2D and 3D modeling for accurate visual representation
+                    </li>
+                    <li>
+                      Detailed technical drawings for engineering and
+                      manufacturing
+                    </li>
+                    <li>
+                      CAD support for prototyping, simulation, and product
+                      development
+                    </li>
+                    <li>Efficient revision workflows and version control</li>
+                    <li>
+                      Compatibility with major CAD platforms and industry
+                      standards
+                    </li>
                   </ul>
                 </div>
               </section>

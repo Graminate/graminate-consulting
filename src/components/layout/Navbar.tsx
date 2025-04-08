@@ -70,7 +70,7 @@ const SERVICES_NAV_DATA: NavSection[] = [
     ],
   },
   {
-    title: "Technology Consulting",
+    title: "Technology Enablement",
     path: "/services/tech_consulting",
     links: [
       {
