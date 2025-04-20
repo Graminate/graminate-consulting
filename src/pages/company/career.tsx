@@ -258,10 +258,7 @@ const Careers = () => {
                   <h3 className="mt-2 text-sm font-semibold text-gray-900">
                     No open positions
                   </h3>
-                  <p className="mt-1 text-sm text-gray-500">
-                    We are not currently hiring, but we are always interested in
-                    talented individuals.
-                  </p>
+
                   <div className="mt-6">
                     {/* Optional: Add a link to a general application or contact page */}
                     {/* <button type="button" className="inline-flex items-center rounded-md bg-emerald-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600">

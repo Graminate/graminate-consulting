@@ -27,6 +27,11 @@ const navigation = {
     { key: "Graminate AgroERP", href: "/products/graminate" },
     // { key: "Downloads", href: "/company/downloads" },
   ],
+
+  company: [
+    { key: "About Us", href: "/company/about_us" },
+    { key: "Careers", href: "/company/career" },
+  ],
 };
 
 const Footer = () => {
@@ -44,7 +49,7 @@ const Footer = () => {
               scalable solutions.
             </p>
             <div className="flex gap-x-8 pt-6">
-              <a
+              {/* <a
                 href="https://facebook.com"
                 target="_blank"
                 aria-label="Facebook"
@@ -53,15 +58,15 @@ const Footer = () => {
                   icon={faFacebookF}
                   className="h-5 w-5 text-gray-300 hover:text-white"
                 />
-              </a>
-              <a href="https://x.com" target="_blank" aria-label="X">
+              </a> */}
+              {/* <a href="https://x.com" target="_blank" aria-label="X">
                 <FontAwesomeIcon
                   icon={faXTwitter}
                   className="h-5 w-5 text-gray-300 hover:text-white"
                 />
-              </a>
-              <a
-                href="https://linkedin.com"
+              </a> */}
+              {/* <a
+                href="https://linkedin.com/"
                 target="_blank"
                 aria-label="LinkedIn"
               >
@@ -69,19 +74,23 @@ const Footer = () => {
                   icon={faLinkedin}
                   className="h-5 w-5 text-gray-300 hover:text-white"
                 />
-              </a>
-              <a href="https://github.com" target="_blank" aria-label="GitHub">
+              </a> */}
+              <a
+                href="https://github.com/Graminate"
+                target="_blank"
+                aria-label="GitHub"
+              >
                 <FontAwesomeIcon
                   icon={faGithub}
                   className="h-5 w-5 text-gray-300 hover:text-white"
                 />
               </a>
-              <a href="tel:+4917671259396" aria-label="Phone">
+              {/* <a href="tel:+4917671259396" aria-label="Phone">
                 <FontAwesomeIcon
                   icon={faPhone}
                   className="h-5 w-5 text-gray-300 hover:text-white"
                 />
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -118,7 +127,23 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="col-span-2 xl:col-span-1">
+            <div className="col-span-1">
+              <h3 className="text-sm font-semibold text-white">Company</h3>
+              <ul role="list" className="mt-2 space-y-2">
+                {navigation.company.map((item) => (
+                  <li key={item.key}>
+                    <a
+                      href={item.href}
+                      className="text-sm text-gray-300 hover:text-white"
+                    >
+                      {item.key}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* <div className="col-span-2 xl:col-span-1">
               <h3 className="text-sm font-semibold text-white">Our Products</h3>
               <ul role="list" className="mt-2 space-y-2">
                 {navigation.ourProducts.map((item) => (
@@ -132,7 +157,7 @@ const Footer = () => {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
