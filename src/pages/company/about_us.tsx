@@ -184,17 +184,17 @@ export default function AboutUs() {
                       Team Members & Interns
                     </dt>
                     <dd className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
-                      40+
+                      10+
                     </dd>
                   </div>
-                  <div className="flex flex-col-reverse gap-y-3 border-l border-gray-900/20 pl-6">
+                  {/* <div className="flex flex-col-reverse gap-y-3 border-l border-gray-900/20 pl-6">
                     <dt className="text-sm leading-6 text-gray-600">
                       Seed Fund Investment
                     </dt>
                     <dd className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
                       $300K
                     </dd>
-                  </div>
+                  </div> */}
                   <div className="flex flex-col-reverse gap-y-3 border-l border-gray-900/20 pl-6">
                     <dt className="text-sm leading-6 text-gray-600">
                       Active Client Partnerships
